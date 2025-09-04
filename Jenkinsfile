@@ -1,9 +1,5 @@
 pipeline {
   agent any
-  options {
-    timestamps()
-    disableConcurrentBuilds()
-  }
 
   stages {
     stage('Build') {
