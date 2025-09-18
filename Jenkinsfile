@@ -34,7 +34,7 @@ pipeline {
 
 		stage ('Integration Tests on Staging') {
 			steps {
-				echo "Stage 6: Deploy to Staging – Deploying application to AWS EC2 using Docker."
+				echo "Stage 6: Integration Tests on Staging – Running end-to-end tests with Postman/Newman."
 			}
 		}
 
